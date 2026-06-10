@@ -1,3 +1,3 @@
 # Homa
 
-## A personal website, for Homa Rousta an Iranian Actress.
+A personal website for Homa Rousta, an Iranian Actress.
