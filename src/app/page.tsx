@@ -5,7 +5,7 @@ import styles from "./page.module.css";
 export default function Home(): ReactNode {
   return (
     <div className={styles.page}>
-      <h1>Homa Rousta</h1>
+      <h1>هما روستا</h1>
     </div>
   );
 }
