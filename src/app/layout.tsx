@@ -1,5 +1,7 @@
 import { type ReactNode } from "react";
 
+import HeaderComponent from "@/components/header/header.component";
+
 import type { Metadata } from "next";
 
 import { Vazirmatn } from "next/font/google";
@@ -23,7 +25,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fa" dir="rtl" className={vazirmatn.className}>
-      <body>{children}</body>
+      <body>
+        <HeaderComponent />
+        {children}
+      </body>
     </html>
   );
 }

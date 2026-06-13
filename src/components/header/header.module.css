@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+
+  padding-block: 1rem;
+  padding-inline: var(--full-width-padding-inline);
+
+  box-shadow:
+    0 4px 6px -1px hsla(0, 0%, 0%, 0.1),
+    0 2px 4px -2px hsla(0, 0%, 0%, 0.1);
+
+  .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    background: linear-gradient(
+      to right,
+      var(--color-violet-800) 10%,
+      var(--color-violet-300) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+  }
+
+  nav {
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+
+      li {
+        a {
+          transition: color var(--animation-duration-slow);
+
+          &.active {
+            color: var(--color-violet-700);
+          }
+
+          &:hover {
+            color: var(--color-violet-800);
+          }
+        }
+      }
+    }
+  }
+}
