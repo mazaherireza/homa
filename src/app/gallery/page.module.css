@@ -1,0 +1,12 @@
+.page {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 12rem));
+  gap: 1rem;
+
+  padding: 2.5rem var(--full-width-padding-inline);
+
+  img {
+    inline-size: 100%;
+    block-size: auto
+  }
+}
