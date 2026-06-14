@@ -1,5 +1,5 @@
 .page {
-  padding: 0.5rem var(--full-width-padding-inline);
+  padding: 2.5rem var(--full-width-padding-inline);
 
   display: grid;
   gap: 2rem;
