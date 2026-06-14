@@ -17,8 +17,8 @@
 
     background: linear-gradient(
       to right,
-      var(--color-violet-800) 10%,
-      var(--color-violet-300) 100%
+      var(--color-violet-23) 10%,
+      var(--color-violet-68) 100%
     );
     background-clip: text;
     -webkit-background-clip: text;
@@ -37,11 +37,11 @@
           transition: color var(--animation-duration-slow);
 
           &.active {
-            color: var(--color-violet-700);
+            color: var(--color-violet-32);
           }
 
           &:hover {
-            color: var(--color-violet-800);
+            color: var(--color-violet-23);
           }
         }
       }

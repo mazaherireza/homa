@@ -1,0 +1,50 @@
+.footer {
+  background-color: var(--color-violet-95);
+  color: var(--color-gray-30);
+
+  padding: 0.5rem var(--full-width-padding-inline);
+
+  font-size: 0.75rem;
+  font-weight: 600;
+
+  display: grid;
+  gap: 0.25rem;
+
+  a {
+    transition: color var(--animation-duration-slow);
+    
+    &:hover {
+      color: var(--color-violet-32);
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+
+    .copyright {
+    }
+
+    .links {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+  }
+
+  .signature {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+
+    justify-self: end;
+
+    .text {
+      font-size: 0.5rem;
+      font-weight: 500;
+    }
+  }
+}
