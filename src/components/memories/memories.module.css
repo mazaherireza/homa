@@ -1,0 +1,38 @@
+.memories {
+  display: grid;
+  gap: 2.5rem;
+
+  color: var(--color-gray-20);
+
+  .text {
+    display: grid;
+    gap: 1rem;
+
+    > p {
+      font-size: 0.75rem;
+      font-weight: 600;
+  
+      text-align: justify;
+    }
+  }
+
+  img {
+    inline-size: 100%;
+    block-size: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .memories {
+    grid-template-columns: 3fr 1fr;
+    align-items: start;
+
+    .text {
+      gap: 1.5rem;
+
+      /* > p {
+        font-size: 1rem;
+      } */
+    }
+  }
+}

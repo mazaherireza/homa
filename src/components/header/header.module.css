@@ -4,8 +4,14 @@
   justify-content: space-between;
   gap: 1rem;
 
+  position: sticky;
+  inset-block-start: 0;
+  z-index: 1;
+
   padding-block: 1rem;
   padding-inline: var(--full-width-padding-inline);
+
+  background-color: var( --color-gray-90);
 
   box-shadow:
     0 4px 6px -1px hsla(0, 0%, 0%, 0.1),
