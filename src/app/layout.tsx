@@ -1,6 +1,7 @@
 import { type ReactNode } from "react";
 
 import HeaderComponent from "@/components/header/header.component";
+import FooterComponent from "@/components/footer/footer.component";
 
 import type { Metadata } from "next";
 
@@ -28,6 +29,7 @@ export default function RootLayout({
       <body>
         <HeaderComponent />
         {children}
+        <FooterComponent />
       </body>
     </html>
   );
