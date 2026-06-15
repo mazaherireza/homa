@@ -2,7 +2,7 @@ import type { ReactNode } from "react";
 
 import Image from "next/image";
 
-import homa from "@/app/assets/images/homa-rousta1.png"
+import homa from "@/assets/images/homa-rousta1.webp"
 
 import styles from "./memories.module.css";
 
@@ -53,7 +53,7 @@ export default function MemoriesComponent(): ReactNode {
           برای گرفتن پاسپورت و بازگرداندن او به ایران تلاش کند. هما پس از مدتی
           می‌فهمد که "غربی"، زن و یک بچه دارد. شنیدن این خبر، او را خیلی ناراحت
           و پریشان می‌کند و برای فرار از غم شکست و ناکامی، به لهستان می‌رود و
-          مدتی نزد پسرعمو‌ و نامزدش می‌ماند. در بازگشت، نامه‌ای از "غربی" در
+          مدتی نزد پسرعمو‌یش می‌ماند. در بازگشت، نامه‌ای از "غربی" در
           انتظار اوست.
         </p>
       </div>

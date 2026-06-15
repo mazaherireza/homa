@@ -25,7 +25,6 @@ export default function FooterComponent(): ReactNode {
       <div className={styles.signature}>
         <div className={styles.text}>طراحی و توسعه: رضا مظاهری</div>
         <Link href="https://github.com/mazaherireza" target="_blank">
-          {" "}
           <GithubIcon />
         </Link>
       </div>
