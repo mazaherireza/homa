@@ -1,0 +1,20 @@
+.not-found {
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 0.5rem;
+
+  font-size: var(--fz-300);
+
+  min-block-size: 100%;
+
+  padding: 2.5rem var(--full-width-padding-inline);
+
+  color: var(--color-gray-20);
+
+  .icon {
+    font-size: var(--fz-900);
+
+    color: var(--color-violet-23);
+  }
+}
