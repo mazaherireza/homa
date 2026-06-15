@@ -9,10 +9,10 @@
     gap: 1rem;
 
     > p {
-      font-size: 0.75rem;
+      font-size: var(--fz-300);
       font-weight: 600;
       line-height: 1.5rem;
-  
+
       text-align: justify;
     }
   }
