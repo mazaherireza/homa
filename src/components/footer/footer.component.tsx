@@ -12,7 +12,6 @@ export default function FooterComponent(): ReactNode {
   return (
     <footer className={styles.footer}>
       <div className={styles.content}>
-        <div className={styles.copyright}>{date} &copy;</div>
         <div className={styles.links}>
           <Link href="https://www.samandarian.com/" target="_blank">
             آکادمی هنرهای دراماتیک سمندریان
@@ -21,6 +20,7 @@ export default function FooterComponent(): ReactNode {
             IMDb
           </Link>
         </div>
+        <div className={styles.copyright}>{date} &copy;</div>
       </div>
       <div className={styles.signature}>
         <div className={styles.text}>طراحی و توسعه: رضا مظاهری</div>
