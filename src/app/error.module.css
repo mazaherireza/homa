@@ -1,7 +1,13 @@
 .error {
-  min-block-size: 100%;
-
   display: grid;
   place-content: center;
   gap: 1rem;
+  
+  min-block-size: 100%;
+
+  font-size: var(--fz-300);
+
+  .button {
+    justify-self: center;
+  }
 }
