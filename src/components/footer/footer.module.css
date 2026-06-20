@@ -4,7 +4,7 @@
 
   padding: 0.5rem var(--full-width-padding-inline);
 
-  font-size: var(--fz-200);
+  font-size: var(--fz-300);
   font-weight: 600;
 
   display: grid;
@@ -31,7 +31,7 @@
     .links {
       display: flex;
       align-items: center;
-      gap: 0.5rem;
+      gap: 1.5rem;
     }
   }
 
@@ -41,7 +41,7 @@
     gap: 0.25rem;
 
     .text {
-      font-size: var(--fz-100);
+      font-size: var(--fz-200);
       font-weight: 500;
     }
   }
