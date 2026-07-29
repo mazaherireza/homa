@@ -1,18 +1,19 @@
 import { type ReactNode } from "react";
 
-import HeaderComponent from "@/components/header/header.component";
-import FooterComponent from "@/components/footer/footer.component";
-
 import type { Metadata } from "next";
 
-import { Vazirmatn } from "next/font/google";
+import localFont from "next/font/local";
+
+import HeaderComponent from "@/components/header/header.component";
+import FooterComponent from "@/components/footer/footer.component";
 
 import "./globals.css";
 import "@/styles/typography.css";
 
-const vazirmatn = Vazirmatn({
-  subsets: ["latin", "arabic"],
+const vazirmatn = localFont({
+  src: "./fonts/Vazirmatn.woff2",
   display: "swap",
+  weight: "100 900",
 });
 
 export const metadata: Metadata = {
