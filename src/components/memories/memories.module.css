@@ -18,8 +18,10 @@
   }
 
   img {
-    inline-size: 100%;
+    inline-size: min(100%, 22rem);
     block-size: auto;
+
+    justify-self: center;
   }
 }
 
