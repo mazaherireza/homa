@@ -9,9 +9,7 @@ import styles from "./page.module.css";
 export default function Page(): ReactNode {
   return (
     <div className={styles.page}>
-      <div>
-        <Image src={homa2} alt="" />
-      </div>
+      <Image src={homa2} alt="" />
     </div>
   );
 }
